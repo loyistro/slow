@@ -8,21 +8,6 @@ body {
   padding: 0;
 }
 
-header {
-  margin-bottom: 1rem;
-}
-
-footer {
-  color: var(--text-secondary);
-  border-top: 1px solid var(--text-secondary);
-  margin-top: 1rem;
-}
-
-a {
-  color: var(--theme);
-  text-decoration: underline;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -35,4 +20,15 @@ a {
   flex: 1 auto;
   justify-content: center;
   margin: 50px 0;
+}
+
+footer {
+  color: var(--text-secondary);
+  border-top: 1px solid var(--text-secondary);
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--theme);
+  text-decoration: underline;
 }

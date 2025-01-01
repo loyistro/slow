@@ -1,4 +1,7 @@
 :root {
     /* Fonts */
     --font-body: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK", sans-serif;
+
+    /* Page */
+    --page-width: 768px;
 }
