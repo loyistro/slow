@@ -1,11 +1,19 @@
 {{ define "main" }}
+
+<div class="termTitle">
   <h1>{{ .Title }}</h1>
+</div>
+
+<div class="termTags">
   <ul>
     {{ $sortedPages := sort .Data.Pages "Title" }}
     {{ range $sortedPages }}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title }} ({{ len .Pages }})</a>
+        <a href="{{ .Permalink }}">{{ .Title }}</a> 
+        {{ len .Pages }}
       </li>
     {{ end }}
   </ul>
+</div>
+
 {{ end }}
