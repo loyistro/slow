@@ -29,10 +29,20 @@ body {
   margin: 50px 0;
 }
 
-footer {
+.post {
+  width: 100%;
+  max-width: var(--page-width);
+  text-align: left;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.footer {
   color: var(--text-secondary);
   border-top: 1px solid var(--text-secondary);
   margin-top: 1rem;
+  width: 100%;
+  text-align: center;
 }
 
 a {

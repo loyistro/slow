@@ -15,13 +15,16 @@
     </header>
   
     <main class="content">
-      {{ block "main" . }}{{ end }}
+      <div class="post">
+        {{ block "main" . }}{{ end }}
+      </div>
     </main>
   
-    <footer  class="footer">
-      {{ partial "footer.html" . }}
-    </footer>
+      <footer  class="footer">
+        {{ partial "footer.html" . }}
+      </footer>
   </div>
+
 </body>
 
 </html>
