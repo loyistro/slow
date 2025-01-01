@@ -6,9 +6,12 @@ menus:
     - name: "Home"
       pageRef: "/"
       weight: 10
-    - name: "Posts"
-      pageRef: "/posts"
+    - name: "section1"
+      pageRef: "/section1"
       weight: 20
+    - name: "section2"
+      pageRef: "/section2"
+      weight: 30
     - name: "Tags"
       pageRef: "/tags"
-      weight: 30
+      weight: 40
