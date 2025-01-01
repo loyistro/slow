@@ -24,9 +24,9 @@ You can of course find this post (../themes/nostyleplease/content/posts/test-toc
 ## Details
 ### What it is?
 It's HTML standard sadly not supported native by markdown. But this theme support it anyway. So... sometimes you want to hide something.
-{{< details summary="Click me" >}}
+
 A lot of text or something else.
-{{< /details >}}
+
 ### How to use "Details"?
 Well you need to inspect this post and see by yourself. It's very easy. Take look at ../themes/nostyleplease/content/posts/test-toc-and-details.md.
 

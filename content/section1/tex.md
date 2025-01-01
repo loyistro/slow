@@ -11,13 +11,10 @@ summary: ""
 <!--more-->
 
 
-Inline math: {{< texi `\varphi` >}}
+Inline math:
 
 Displayed math: 
-{{< texd `\begin{aligned}
-\varphi &\Rightarrow \psi \\
-\varnothing &\rightarrow A
-\end{aligned}` >}}
+
 
 $$
 R_{\mu \nu} - {1 \over 2}g_{\mu \nu}\,R + g_{\mu \nu} \Lambda
