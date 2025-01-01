@@ -7,20 +7,16 @@
   @example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
   */}}
   
-  {{- $page := .page }}
-  {{- $menuID := .menuID }}
-  
-  {{- with index site.Menus $menuID }}
-  <nav class="menu">
-    <ul>
-      {{- range . }}
-        {{- $isActive := or (eq $page.Permalink .URL) ($page.IsMenuCurrent .Menu .) }}
-        <li class="{{ if $isActive }}active{{ end }}">
-          <a href="{{ .URL | absLangURL }}">
-            {{ .Name }}
-          </a>
-        </li>
-      {{- end }}
-    </ul>
-  </nav>
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<nav class="menu">
+  {{- range . }}
+    {{- $isActive := or (eq $page.Permalink .URL) ($page.IsMenuCurrent .Menu .) }}
+    <a href="{{ .URL | absLangURL }}" class="{{ if $isActive }}active{{ end }}">
+      {{ .Name }}
+    </a>
   {{- end }}
+</nav>
+{{- end }}

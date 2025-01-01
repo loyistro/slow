@@ -1,28 +1,22 @@
 .menu {
-    margin-right: 0;
-    padding-right: 0;
-  }
-  
-  .menu ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu li {
-    margin-right: 1rem;
-    font-weight: 200;
-  }
-  
-  .menu li a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .menu li.active a {
-    font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 0.4rem;
-    text-decoration-thickness: 0.2rem;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  min-width: 10ch;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 200;
+  color: inherit;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.menu a.active  {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+  text-decoration-thickness: 0.1rem;
+  color: var(--theme);
+}

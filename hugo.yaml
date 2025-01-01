@@ -9,7 +9,7 @@ menus:
     - name: "section1"
       pageRef: "/section1"
       weight: 20
-    - name: "section2"
+    - name: "apple"
       pageRef: "/section2"
       weight: 30
     - name: "Tags"
