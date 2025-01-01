@@ -1,0 +1,29 @@
+.listTitle {
+}
+
+.listDescription {
+}
+
+.listSection {
+  border-bottom: 1px solid var(--text-secondary);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.listSection-year {
+
+}
+
+.listSection-entry {
+  display: flex;
+  gap: 2rem;
+  max-width: var(--page-width);
+  justify-content: space-between;
+}
+
+.listSection-entry-title {
+}
+
+.listSection-entry-date {
+  margin: 0;
+}

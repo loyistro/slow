@@ -1,15 +1,26 @@
 {{ define "main" }}
   
-  <h1>{{ .Title }}</h1>
+  <h1 class="listTitle">
+    {{ .Title }}
+  </h1>
   
+  <div class="listDescription">
   {{ .Content }}
+  </div>
   
   {{ range .Pages.GroupByDate "2006" }}
-    <h2>{{ .Key }}</h2>
-      {{ range .Pages }}
-          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          <p>{{ .Date.Format site.Params.dateFormat }}</p>
-      {{ end }}
+  <div class="listSection">
+    <h2 class="listSection-year">
+      {{ .Key }}
+    </h2>
+
+    {{ range .Pages }}
+      <div class="listSection-entry"> 
+        <a class="listSection-entry-title" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          <p class="listSection-entry-date">{{ .Date.Format site.Params.dateFormat }}</p>
+      </div>
+    {{ end }}
+   </div>
   {{ end }}
 
 {{ end }}
