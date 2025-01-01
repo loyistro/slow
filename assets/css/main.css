@@ -1,3 +1,10 @@
+/* Global setting box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--font-body);
   font-size: 1rem;
