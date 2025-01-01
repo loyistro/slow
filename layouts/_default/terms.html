@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ $sortedPages := sort .Data.Pages "Title" }}
+    {{ range $sortedPages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }} ({{ len .Pages }})</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
