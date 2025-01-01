@@ -15,3 +15,6 @@ menus:
     - name: "Tags"
       pageRef: "/tags"
       weight: 40
+
+params:
+  dateFormat: "January 2, 2006"
