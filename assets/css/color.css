@@ -1,10 +1,9 @@
 :root {
+  --theme: rgb(199, 62, 58);
   --page-background: rgb(255, 255, 251);
   --header-background: rgb(252, 250, 242);
-  --header-bottom-boder: rgb(101, 103, 101);
-  --content-primary: rgb(28, 28, 28);
-  --content-secondary: rgb(101, 103, 101);
-  --link: rgb(199, 62, 58);
+  --text-primary: rgb(28, 28, 28);
+  --text-secondary: rgb(101, 103, 101);
   --code-background: rgb(40, 42, 54);
   --code-border: rgb(50, 50, 50);
   --code-text: rgb(248, 248, 242);

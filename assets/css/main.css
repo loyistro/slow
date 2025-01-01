@@ -1,5 +1,6 @@
 body {
-  color: #222;
+  background: var(--page-background);
+  color: var(--text-primary);
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
@@ -7,16 +8,16 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #222;
   margin-bottom: 1rem;
 }
 
 footer {
-  border-top: 1px solid #222;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--text-secondary);
   margin-top: 1rem;
 }
 
 a {
-  color: #00e;
-  text-decoration: none;
+  color: var(--theme);
+  text-decoration: underline;
 }
