@@ -1,0 +1,33 @@
+pre {
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  line-height: 1.3rem;
+  overflow: scroll;
+  overflow-x: auto;
+  scrollbar-width: none;
+  }
+  
+pre::-webkit-scrollbar {
+  display: none;
+}
+  
+code span {
+  display: inline !important;
+}
+  
+code {
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+p code {
+  background-color: var(--code-background);
+  color: var(--code-text);
+  border-radius: 3px;
+  padding: 2px;
+}
