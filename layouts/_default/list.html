@@ -14,7 +14,7 @@
     {{ range .Pages }}
       <div class="entry"> 
         <a class="entry-title" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          <p class="entry-date">{{ .Date.Format site.Params.dateFormat }}</p>
+        <p class="entry-date">{{ .Date.Format "January 2" }}</p>
       </div>
     {{ end }}
   </section>
