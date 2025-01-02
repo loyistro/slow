@@ -7,35 +7,7 @@
   <p class="summary">{{ .Params.summary }}</p>
   {{ end }}
 
-<div class="post-meta">
-  {{/* Show published date */}}
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format site.Params.dateFormat }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-
-  {{/* Show read time */}}
-  {{ if .ReadingTime }}
-    &nbsp; · &nbsp;
-    {{ .ReadingTime }} min read
-  {{ end }}
-
-  {{/* Show tags */}}
-  &nbsp; · &nbsp;
-  <span class="post-meta-tags">
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-  </span>
-</div>
-  
-  {{/* Show TOC */}}
-  {{ if .TableOfContents }}
-    {{ $toc := .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "" | replaceRE "</nav>" "" }}
-    {{ if $toc }}
-    <div class="toc">
-      <h2>Table of Contents</h2>
-      {{ $toc | markdownify }}
-    </div>
-    {{ end }}
-  {{ end }}
+  {{ partial "post-meta.html" . }}
 
   {{ partial "series.html" . }}
   
