@@ -1,20 +1,18 @@
-.menu {
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
-  min-width: 10ch;
 }
 
-.menu a {
+nav a {
   text-decoration: none;
   font-weight: 200;
   color: inherit;
   display: inline-block;
-  padding: 1rem;
+  padding: var(--nav-padding);
 }
 
-.menu a.active  {
+nav a.active  {
   text-decoration: underline;
   text-underline-offset: 0.4rem;
   text-decoration-thickness: 0.1rem;

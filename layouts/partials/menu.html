@@ -11,7 +11,7 @@
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-<nav class="menu">
+<nav>
   {{- range . }}
     {{- $isActive := or (eq $page.Permalink .URL) ($page.IsMenuCurrent .Menu .) }}
     <a href="{{ .URL | absLangURL }}" class="{{ if $isActive }}active{{ end }}">

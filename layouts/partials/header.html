@@ -1,12 +1,4 @@
 <div class="headerBar">
-    
-    <div class="headerBar-siteTitle">
-        <span class="siteTitle">
-            {{ site.Title }}
-        </span>
-    </div>
-
-    
+    <p class="siteTitle">{{ site.Title }}</p>
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-    
 </div>
