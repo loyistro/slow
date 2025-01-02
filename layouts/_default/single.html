@@ -24,10 +24,13 @@
   
   {{/* Show TOC */}}
   {{ if .TableOfContents }}
+    {{ $toc := .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "" | replaceRE "</nav>" "" }}
+    {{ if $toc }}
     <div class="toc">
       <h2>Table of Contents</h2>
-      {{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "" | replaceRE "</nav>" "" | markdownify}}
+      {{ $toc | markdownify }}
     </div>
+    {{ end }}
   {{ end }}
 
   {{ .Content }}
