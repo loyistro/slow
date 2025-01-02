@@ -27,7 +27,7 @@ main {
   flex: 1 auto;
   justify-content: center;
   margin: 20px auto;
-  margin-top: 60px;
+  margin-top: var(--header-height);
   padding: var(--main-padding);
 }
 

@@ -1,0 +1,15 @@
+article {
+  width: 100%;
+  max-width: var(--page-width);
+  text-align: left;
+}
+
+.articleMeta {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.articleMeta-tags a {
+  padding-right: .3rem;
+
+}
