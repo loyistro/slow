@@ -3,6 +3,10 @@
 <article>
   <h1>{{ .Title }}</h1>
 
+  {{ if .Params.summary }}
+  <p class="summary">{{ .Params.summary }}</p>
+  {{ end }}
+
 <div class="post-meta">
   {{/* Show published date */}}
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
