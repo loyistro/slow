@@ -43,4 +43,9 @@
   /* Code */
   --code-padding: 1.5rem;
   --code-border-radius: 10px;
+
+  /* Tables */
+  --table-cell-padding: .5rem;
+  --table-margin-top: 1.5rem;
+  --table-margin-bottom: 1.5rem;
 }
