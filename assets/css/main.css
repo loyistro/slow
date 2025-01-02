@@ -1,3 +1,8 @@
+/* Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Global setting box-sizing */
 *,
 *::before,
