@@ -7,7 +7,6 @@ description: "desc. Test TOC, deatails and styles"
 summary: ""
 ---
 
-## Table of Content
 ### What it is?
 TOC is the box you see at the very top of this post. It may be framed (or not).
 

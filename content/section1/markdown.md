@@ -7,18 +7,6 @@ tags: ["Highlight", "test"]
 description: "desc. Test Markdown"
 summary: ""
 ---
-# <a name="top"></a>Markdown Test Page
-
-* [Headings](#Headings)
-* [Paragraphs](#Paragraphs)
-* [Blockquotes](#Blockquotes)
-* [Lists](#Lists)
-* [Horizontal rule](#Horizontal)
-* [Table](#Table)
-* [Code](#Code)
-* [Inline elements](#Inline)
-
-***
 
 # <a name="Headings"></a>Headings
 
