@@ -1,18 +1,18 @@
 article {
-  width: 100%;
-  max-width: var(--page-width);
+    width: 100%;
+    max-width: var(--page-width);
 }
 
 .post-meta {
-  color: var(--text-secondary);
+    color: var(--text-secondary);
 }
 
 .post-meta-tags a {
-  padding-right: .3rem;
+    padding-right: .3rem;
 
 }
 
 .summary {
-  color: var(--text-secondary);
+    color: var(--text-secondary);
 }
 

@@ -1,16 +1,16 @@
 .year {
-  border-bottom: 1px dotted var(--text-primary);
-  margin: 2rem 0 .8rem 0;
+    border-bottom: 1px dotted var(--text-primary);
+    margin: 2rem 0 .8rem 0;
 }
 
 .entry {
-  display: flex;
-  max-width: var(--page-width);
-  justify-content: space-between;
-  padding: .2rem 0;
+    display: flex;
+    max-width: var(--page-width);
+    justify-content: space-between;
+    padding: .2rem 0;
 }
 
 .entry-date {
-  margin: 0;
-  color: var(--text-secondary);
+    margin: 0;
+    color: var(--text-secondary);
 }

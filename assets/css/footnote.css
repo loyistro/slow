@@ -1,27 +1,27 @@
 .footnotes {
-  margin: 1rem 0;
-  border-style: none;
+    margin: 1rem 0;
+    border-style: none;
 
-  }
+    }
 
 .footnotes p {
-  margin: 0;
+    margin: 0;
 }
 
 .footnotes hr {
-  border: none;
-  border-top: 1px solid var(--text-secondary);
-  color: var(--text-secondary);
+    border: none;
+    border-top: 1px solid var(--text-secondary);
+    color: var(--text-secondary);
 }
 
 .footnote-ref {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 0.8rem;
-  margin: .2rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: .2rem;
 }
 
 .footnote-backref {
-  font-size: 0.8rem;
-  text-decoration: none;
+    font-size: 0.8rem;
+    text-decoration: none;
 }
