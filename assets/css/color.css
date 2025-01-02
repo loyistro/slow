@@ -1,10 +1,11 @@
 :root {
-  --theme: rgb(0, 137, 108);
-  --page-background: rgb(255, 255, 251);
-  --header-background: rgb(252, 250, 242);
-  --text-primary: rgb(28, 28, 28);
-  --text-secondary: rgb(101, 103, 101);
-  --code-background: rgb(40, 42, 54);
-  --code-border: rgb(50, 50, 50);
-  --code-text: rgb(248, 248, 242);
+  --theme: rgba(0, 137, 108, 1);
+  --notice-background: rgba(0, 137, 108, 0.2);
+  --page-background: rgba(255, 255, 251, 1);
+  --header-background: rgba(252, 250, 242, 1);
+  --text-primary: rgba(28, 28, 28, 1);
+  --text-secondary: rgba(101, 103, 101, 1);
+  --code-background: rgba(40, 42, 54, 1);
+  --code-border: rgba(50, 50, 50, 1);
+  --code-text: rgba(248, 248, 242, 1);
 }
