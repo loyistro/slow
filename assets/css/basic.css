@@ -74,22 +74,19 @@ p {
 }
 
 /* List */
+ol {
+  padding: 1rem 0 1rem 1rem;
+}
+
 ul {
-  margin-top: var(--ul-margin-top);
-  margin-bottom: var(--ul-margin-bottom);
+  padding: 0 0 0 1rem;
 }
 
 li {
-  margin-left: var(--li-indent);
-}
-
-li code {
-  background-color: var(--code-background);
-  color: var(--code-text);
+  margin: 0 0 0 .5rem;
 }
 
 /* Code blocks */
-
 pre {
   padding: var(--code-padding);
   border: 1px solid var(--chroma-border);
