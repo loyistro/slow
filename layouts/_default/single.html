@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <article>
-<h1>{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
 
-<div class="articleMeta">
+<div class="post-meta">
   {{/* Show published date */}}
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format site.Params.dateFormat }}
@@ -17,7 +17,7 @@
 
   {{/* Show tags */}}
   &nbsp; · &nbsp;
-  <span class="articleMeta-tags">
+  <span class="post-meta-tags">
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </span>
 </div>
