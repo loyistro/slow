@@ -3,9 +3,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--header-padding);
+  padding: .5rem;
   margin: 0;
-  height: var(--header-height);
+  height: 3.5rem;
   
   /* Pin the header to the top of the viewport */
   position: fixed;
@@ -21,11 +21,11 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   width: 100%;
-  max-width: var(--main-width);
+  max-width: 768px;
 }
   
 .siteTitle {
   font-weight: 800;
-  padding: var(--siteTile-padding);
+  padding: 1rem;
   margin: 0;
 }
