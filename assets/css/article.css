@@ -1,7 +1,6 @@
 article {
   width: 100%;
   max-width: var(--page-width);
-  text-align: left;
 }
 
 .articleMeta {
