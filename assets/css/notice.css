@@ -1,0 +1,5 @@
+.notice {
+    margin: 1rem;
+    padding: 0 0 0 1rem;
+    border-left: solid 4px var(--theme);    color: var(--text-secondary);
+}

@@ -3,6 +3,7 @@ draft: true
 title: "very very very long title and very very very short content"
 date: 2020-07-08T00:00:00+08:00
 tags: ["content", "test"]
+series: ["finnal piece"]
 description: "desc. very very very long title and very very very short content"
 summary: ""
 ---
