@@ -73,4 +73,9 @@ p {
   line-height: 1.5em;
 }
 
-
+hr {
+  border: .5px solid var(--text-secondary);
+  height: auto;
+  text-align: center;
+  margin: 0;
+}
