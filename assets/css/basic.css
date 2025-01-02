@@ -32,7 +32,7 @@ main {
   flex: 1 auto;
   justify-content: center;
   margin: 20px auto;
-  margin-top: var(--header-height);
+  margin-top: 3.5rem;
   padding: 1.4rem;
 }
 
