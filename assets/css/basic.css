@@ -86,19 +86,15 @@ li {
   margin: 0 0 0 .5rem;
 }
 
-/* Code blocks */
+/* Code Block*/
 pre {
-  padding: var(--code-padding);
-  border: 1px solid var(--chroma-border);
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  line-height: 1.3rem;
   overflow: scroll;
-  border-radius: var(--code-border-radius);
-  margin-top: var(--code-margin-top);
-  margin-bottom: var(--code-margin-bottom);
-  background-color: var(--chroma-background);
   overflow-x: auto;
-  -ms-overflow-style: none;
   scrollbar-width: none;
-  line-height: 1.3em;
 }
 
 pre::-webkit-scrollbar {
@@ -110,30 +106,10 @@ code span {
 }
 
 code {
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+  font-size: 0.8rem;
+  line-height: 1rem;
   -webkit-font-smoothing: antialiased;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
-  font-variant-ligatures: contextual;
-  font-family: var(--font-mono);
-
-  margin: auto 4px;
-  padding: 4px 6px;
-  font-size: 0.78em;
-  line-height: 1.5;
-  border-radius: 4px;
-}
-
-
-.katex-display {
-  overflow-x: auto;
-  overflow-y: hidden;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.katex-display::-webkit-scrollbar {
-  display: none;
 }
