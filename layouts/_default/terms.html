@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-<div class="termTitle">
+<section>
   <h1>{{ .Title }}</h1>
-</div>
+</section>
 
-<div class="termTags">
+<section class="termTags">
   <ul>
     {{ $sortedPages := sort .Data.Pages "Title" }}
     {{ range $sortedPages }}
@@ -14,6 +14,6 @@
       </li>
     {{ end }}
   </ul>
-</div>
+</section>
 
 {{ end }}
