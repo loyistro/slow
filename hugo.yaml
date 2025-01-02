@@ -18,3 +18,8 @@ menus:
 
 params:
   dateFormat: "January 2, 2006"
+
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 3
