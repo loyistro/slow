@@ -1,0 +1,16 @@
+/* Table of contents */
+
+.toc {
+  margin: 2rem 0;
+  border: solid 1px var(--text-secondary);
+  border-radius: 4px;
+  padding: .8rem;
+}
+
+.toc h2 {
+ margin: 0;
+}
+
+.toc ul {
+  margin: .5rem 0;
+}

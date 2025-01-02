@@ -21,5 +21,8 @@ params:
 
 markup:
   tableOfContents:
-    startLevel: 1
+    startLevel: 2
     endLevel: 3
+  goldmark:
+    renderer:
+      unsafe: true

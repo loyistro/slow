@@ -14,28 +14,3 @@ article {
 
 }
 
-/* Table of contents */
-
-.toc {
-  line-height: calc(.9 * var(--p-line-height));
-  margin-top: var(--toc-margin-top);
-  margin-bottom: var(--toc-margin-bottom);
-  border: solid 1px var(--content-secondary);
-  border-radius: 4px;
-  padding: var(--toc-padding);
-  font-size: medium;
-}
-
-.toc li a{
-  text-decoration: none;
-}
-
-.toc ul {
-  margin-top: .1rem;
-  margin-bottom: .1rem;
-}
-
-.toc li {
-  margin-top: .1rem;
-  margin-bottom: .1rem;
-}
