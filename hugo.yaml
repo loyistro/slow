@@ -16,7 +16,10 @@ menus:
       pageRef: "/tags"
       weight: 40
 
+googleAnalytics: "G-xxxxxxxxx" 
+
 params:
+  Environment: "production"
   dateFormat: "January 2, 2006"
   label:
     text: "OYISTRO"

@@ -16,3 +16,7 @@
 <link rel="preload" href="{{ .Site.BaseURL }}fonts/BricolageGrotesque-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
 {{ partialCached "css.html" . }}
+
+{{ if hugo.IsProduction }}
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
