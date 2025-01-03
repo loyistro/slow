@@ -32,8 +32,7 @@ main {
     flex-direction: column;
     flex: 1 auto;
     justify-content: center;
-    margin: 20px auto;
-    margin-top: 3.5rem;
+    margin: 3rem auto 1rem auto;
     padding: 1.4rem;
 }
 
