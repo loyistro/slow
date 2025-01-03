@@ -3,11 +3,11 @@ article {
     max-width: var(--page-width);
 }
 
-.post-meta {
+.meta {
     color: var(--text-secondary);
 }
 
-.post-meta-tags a {
+.tags a {
     padding-right: .3rem;
 
 }

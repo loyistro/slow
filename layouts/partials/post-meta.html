@@ -1,4 +1,4 @@
-<div class="post-meta">
+<div class="meta">
     {{/* Show published date */}}
     {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
     {{ $dateHuman := .Date | time.Format site.Params.dateFormat }}
@@ -12,7 +12,7 @@
   
     {{/* Show tags */}}
     &nbsp; · &nbsp;
-    <span class="post-meta-tags">
+    <span class="tags">
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </span>
 </div>
