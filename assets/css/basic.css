@@ -80,3 +80,9 @@ a {
     text-underline-offset: 0.3rem;
     text-decoration-thickness: 0.08rem;
 }
+
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
