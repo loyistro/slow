@@ -24,9 +24,21 @@ header {
     width: 100%;
     max-width: 768px;
 }
-    
-.siteTitle {
+
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.label-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem .1rem;
+}
+
+.label-text {
     font-weight: 800;
-    padding: 1rem;
-    margin: 0;
+    font-size: 1.5rem;
+    margin: 1rem .1rem;
 }
