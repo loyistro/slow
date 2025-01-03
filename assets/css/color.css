@@ -1,6 +1,6 @@
 :root {
     --theme: rgb(0, 137, 108);
-    --notice-background: rgba(0, 137, 108, 0.2);
+    --notice-background: rgba(0, 137, 108, 0.1);
     --page-background: rgba(255, 255, 251, 1);
     --header-background: rgba(252, 250, 242, 1);
     --text-primary: rgba(28, 28, 28, 1);
