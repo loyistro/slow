@@ -15,5 +15,6 @@ article {
 
 .summary {
     color: var(--text-secondary);
+    margin: .5rem 0;
 }
 

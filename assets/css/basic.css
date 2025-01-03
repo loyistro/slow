@@ -38,19 +38,19 @@ main {
 
 footer {
     color: var(--text-secondary);
-    margin: 1rem 0;
+    margin: .5rem 0;
     text-align: center;
 }
 
 /* Typo */
 h1 {
     font-size: 2em;
-    margin: 2rem 0 .5rem 0;
+    margin: 1.8rem 0 .5rem 0;
 }
 
 h2 {
     font-size: 1.8em;
-    margin: 2rem 0 1.5rem 0;
+    margin: 1.5rem 0 .5rem 0;
 }
 
 h3,
@@ -58,11 +58,11 @@ h4,
 h5,
 h6 {
     font-size: 1.3em;
-    margin: 1.5rem 0 1rem 0;
+    margin: 1rem 0 .5rem 0;
 }
 
 p {
-    margin: .5rem 0;
+    margin: 1rem 0;
     line-height: 1.5em;
 }
 
@@ -84,4 +84,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        padding: 0.8rem;
+    }
 }
