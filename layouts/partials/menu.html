@@ -10,8 +10,10 @@
 {{- $page := .page }}
 {{- $menuID := .menuID }}
 
+<button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+
 {{- with index site.Menus $menuID }}
-<nav>
+<nav id="nav-menu" class="hidden">
   {{- range . }}
     {{- $isActive := or (eq $page.Permalink .URL) ($page.IsMenuCurrent .Menu .) }}
     <a href="{{ .URL | absLangURL }}" class="{{ if $isActive }}active{{ end }}">
