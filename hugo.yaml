@@ -1,0 +1,39 @@
+baseURL: "https://example.org/"
+languageCode: "en-US"
+title: "My New Hugo Site"
+menus:
+  main:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
+    - name: "section1"
+      pageRef: "/section1"
+      weight: 20
+    - name: "apple"
+      pageRef: "/section2"
+      weight: 30
+    - name: "Tags"
+      pageRef: "/tags"
+      weight: 40
+
+googleAnalytics: "G-xxxxxxxxx" 
+
+params:
+  Environment: "production"
+  dateFormat: "January 2, 2006"
+  label:
+    text: "OYISTRO"
+    icon: "/favicon/apple-touch-icon.png"
+    iconHeight: 24
+
+taxonomies:
+  tag: "tags"
+  series: "series"
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+  goldmark:
+    renderer:
+      unsafe: true

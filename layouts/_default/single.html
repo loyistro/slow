@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<article>
+  <h1>{{ .Title }}</h1>
+
+  {{ if .Params.summary }}
+  <p class="summary">{{ .Params.summary }}</p>
+  {{ end }}
+
+  {{ partial "post-meta.html" . }}
+
+  {{ partial "series.html" . }}
+  
+  {{ .Content }}
+
+</article>
+{{ end }}

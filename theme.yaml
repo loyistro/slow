@@ -1,0 +1,24 @@
+name: "Pace"
+license: "MIT"
+licenselink: "https://github.com/loyistro/pace/blob/main/LICENSE"
+description: "Personal website running on Hugo"
+
+# The home page of the theme, where the source can be found
+homepage: "https://github.com/loyistro/pace"
+
+# If you have a running demo of the theme
+demosite: "https://owner.github.io/repo"
+
+# Taxonomy terms
+tags: ["blog", "company", "portfolio", "resume", "personal"]
+features: ["some", "awesome", "features"]
+
+# If the theme has multiple authors
+authors:
+  - name: "Loyistro"
+    homepage: "https://github.com/loyistro"
+
+# If the theme has a single author
+author:
+  name: "Loyistro"
+  homepage: "https://loyistro.github.io"

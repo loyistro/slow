@@ -1,0 +1,19 @@
+article {
+    width: 100%;
+    max-width: var(--page-width);
+}
+
+.meta {
+    color: var(--text-secondary);
+    margin: .5rem 0 2rem 0;
+}
+
+.tags a {
+    padding-right: .3rem;
+
+}
+
+.summary {
+    color: var(--text-secondary);
+}
+

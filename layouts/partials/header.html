@@ -1,0 +1,11 @@
+<div class="headerBar">
+    <p class="label">
+        {{ if .Site.Params.label.icon }}
+                <img class="label-icon" src="{{ .Site.Params.label.icon }}" alt="Icon" height="{{ .Site.Params.label.iconHeight }}" />
+            {{ end }}
+            <span class="label-text">{{ .Site.Params.label.text | default .Site.Title }}</span>
+    </p>
+    
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+</div>

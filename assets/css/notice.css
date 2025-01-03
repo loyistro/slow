@@ -1,0 +1,7 @@
+.notice {
+        margin: 1rem 0;
+        padding: .1rem .5rem;
+        border-left: solid .5rem var(--theme);
+        color: var(--text-secondary);
+        background-color: var(--notice-background);
+}

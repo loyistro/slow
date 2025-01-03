@@ -1,0 +1,18 @@
+<div class="meta">
+    {{/* Show published date */}}
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format site.Params.dateFormat }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  
+    {{/* Show read time */}}
+    {{ if .ReadingTime }}
+      &nbsp; · &nbsp;
+      {{ .ReadingTime }} min read
+    {{ end }}
+  
+    {{/* Show tags */}}
+    &nbsp; · &nbsp;
+    <span class="tags">
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </span>
+</div>

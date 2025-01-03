@@ -1,0 +1,22 @@
+{{- /*
+  Renders a simple single-level menu for the given menu ID.
+  
+  @context {page} page The current page.
+  @context {string} menuID The menu ID.
+  
+  @example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  */}}
+  
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<nav>
+  {{- range . }}
+    {{- $isActive := or (eq $page.Permalink .URL) ($page.IsMenuCurrent .Menu .) }}
+    <a href="{{ .URL | absLangURL }}" class="{{ if $isActive }}active{{ end }}">
+      {{ .Name }}
+    </a>
+  {{- end }}
+</nav>
+{{- end }}

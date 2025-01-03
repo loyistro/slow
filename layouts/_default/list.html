@@ -1,0 +1,23 @@
+{{ define "main" }}
+  
+<section>
+  <h1>{{ .Title }}</h1>
+  <div class="summary">{{ .Content }}</div>
+</section>
+
+  {{ range .Pages.GroupByDate "2006" }}
+  <section>
+    <h2 class="year">
+      {{ .Key }}
+    </h2>
+
+    {{ range .Pages }}
+      <div class="entry"> 
+        <a class="entry-title" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <p class="entry-date">{{ .Date.Format "January 2" }}</p>
+      </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+{{ end }}
