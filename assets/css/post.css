@@ -5,6 +5,7 @@ article {
 
 .meta {
     color: var(--text-secondary);
+    margin: .5rem 0 2rem 0;
 }
 
 .tags a {
