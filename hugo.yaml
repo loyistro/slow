@@ -25,6 +25,7 @@ params:
     text: "OYISTRO"
     icon: "/favicon/apple-touch-icon.png"
     iconHeight: 24
+  enableSummary: false
 
 taxonomies:
   tag: "tags"
