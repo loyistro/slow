@@ -1,6 +1,7 @@
 .year {
     border-bottom: 1px dotted var(--text-primary);
     margin: 2rem 0 .8rem 0;
+    font-variation-settings: "wght" 600;
 }
 
 .entry {

@@ -14,7 +14,7 @@ html {
 body {
     font-family: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-variation-settings: "wght" 400;
     background: var(--page-background);
     color: var(--text-primary);
 }
@@ -41,17 +41,19 @@ footer {
     margin: .5rem 0;
     text-align: center;
     font-size: .8rem;
+    font-variation-settings: "wght" 200;
 }
 
 /* Typo */
 h1 {
     font-size: 2em;
-    margin: 1.8rem 0 .5rem 0;
+    margin: 1.5rem 0 .5rem 0;
+    font-variation-settings: "wght" 700;
 }
 
 h2 {
     font-size: 1.8em;
-    margin: 1.5rem 0 .5rem 0;
+    margin: 1rem 0 .5rem 0;
 }
 
 h3,
@@ -59,11 +61,11 @@ h4,
 h5,
 h6 {
     font-size: 1.3em;
-    margin: 1rem 0 .5rem 0;
+    margin: .5rem 0 .5rem 0;
 }
 
 p {
-    margin: 1rem 0;
+    margin: .5rem 0;
     line-height: 1.5em;
 }
 

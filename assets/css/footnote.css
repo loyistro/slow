@@ -1,7 +1,6 @@
 .footnotes {
     margin: 1rem 0;
     border-style: none;
-
     }
 
 .footnotes p {
@@ -16,7 +15,7 @@
 
 .footnote-ref {
     text-decoration: none;
-    font-weight: 400;
+    font-variation-settings: "wght" 400;
     font-size: 0.8rem;
     margin: .2rem;
 }

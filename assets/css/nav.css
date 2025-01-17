@@ -17,7 +17,7 @@ nav a.active    {
     text-underline-offset: 0.5rem;
     text-decoration-thickness: 0.15rem;
     color: var(--theme);
-    font-weight: 600;
+    font-variation-settings: "wght" 600;
 }
 
 /* Hamburger button */

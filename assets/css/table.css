@@ -12,7 +12,6 @@ td {
     
 th {
     background-color: var(--code-background);
-    font-weight: 400;
     color: var(--code-text);
     border: 1px solid var(--code-text);
 }

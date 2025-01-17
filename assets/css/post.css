@@ -6,6 +6,7 @@ article {
 .meta {
     color: var(--text-secondary);
     margin: .5rem 0 2rem 0;
+    font-variation-settings: "wght" 200;
 }
 
 .tags a {
@@ -16,5 +17,6 @@ article {
 .summary {
     color: var(--text-secondary);
     margin: .5rem 0;
+    font-variation-settings: "wght" 200;
 }
 
