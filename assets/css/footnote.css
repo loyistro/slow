@@ -3,6 +3,11 @@
     border-style: none;
     }
 
+.footnotes ol {
+    font-variation-settings: "wght" 200;
+    color: var(--text-secondary);
+}
+
 .footnotes p {
     margin: 0;
 }
